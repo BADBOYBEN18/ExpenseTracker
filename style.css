@@ -252,7 +252,7 @@ ul li:hover .action {
   margin-bottom: 0.5rem;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {
   header div{
     margin: 0 auto;
     white-space: nowrap;
@@ -262,5 +262,13 @@ ul li:hover .action {
     text-align: center;
   }
 
-
+  header #balance{
+    font-size: 1.5rem;
+  }
+  header #income{
+    font-size: 1.15rem;
+  }
+  header #Expense{
+    font-size: 1.15rem;
+  }
 }
